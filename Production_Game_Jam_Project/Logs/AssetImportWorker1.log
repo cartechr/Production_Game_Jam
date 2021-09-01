@@ -248,3 +248,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2730.288015 seconds.
+  path: Assets/Art/Objects
+  artifactKey: Guid(3c2b4f497f1cadc4eac10af80b5d2b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Objects using Guid(3c2b4f497f1cadc4eac10af80b5d2b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a6938fa33ea7e3a5c1ef15849b600f') in 0.006296 seconds 
+  Import took 0.009494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.318673 seconds.
+  path: Assets/Art/Objects/buttons_numbers.png
+  artifactKey: Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Objects/buttons_numbers.png using Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83c3ded5e11a0b7d139cf85cf115558') in 0.078046 seconds 
+  Import took 0.081286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.286509 seconds.
+  path: Assets/Art/Objects/buttons_numbers.png
+  artifactKey: Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Objects/buttons_numbers.png using Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae004776bb9746cbf45732679d2eab92') in 0.009144 seconds 
+  Import took 0.012187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.469328 seconds.
+  path: Assets/Art/Objects/buttons_numbers.png
+  artifactKey: Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Objects/buttons_numbers.png using Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36c9cf933f75c5b497e2f9dab2b767a') in 0.009408 seconds 
+  Import took 0.012883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002242 seconds.
+  path: Assets/Art/Objects/buttons_numbers.png
+  artifactKey: Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Objects/buttons_numbers.png using Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36c9cf933f75c5b497e2f9dab2b767a') in 0.007470 seconds 
+  Import took 0.010712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.003403 seconds.
+  path: Assets/Art/Objects/buttons_numbers.png
+  artifactKey: Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Objects/buttons_numbers.png using Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5920723a894bac45416614c54bd45007') in 0.030008 seconds 
+  Import took 0.032835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.249618 seconds.
+  path: Assets/Art/Objects/buttons_numbers.png
+  artifactKey: Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Objects/buttons_numbers.png using Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f2cacd12eb715597a6f47e42503865') in 0.027301 seconds 
+  Import took 0.030249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.445917 seconds.
+  path: Assets/Art/Objects/buttons_numbers.png
+  artifactKey: Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Objects/buttons_numbers.png using Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6de6730e4b24bbc23017289c86e195f') in 0.028517 seconds 
+  Import took 0.031363 seconds .
+
