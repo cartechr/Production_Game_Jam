@@ -26,6 +26,7 @@ public class Button_4 : MonoBehaviour
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
             isOn = true;
+            StartCoroutine(("SetMyBoolToFalse"));
 
         }
 
@@ -47,5 +48,16 @@ public class Button_4 : MonoBehaviour
         }
 
 
+    }
+    private IEnumerator SetMyBoolToFalse()
+    {
+
+        yield return new WaitForSeconds(1f);
+        if (isOn == true)
+        {
+            isOn = false;
+            gameObject.GetComponent<SpriteRenderer>().sprite = switchOff.GetComponent<SpriteRenderer>().sprite;
+        }
+        yield return null;
     }
 }

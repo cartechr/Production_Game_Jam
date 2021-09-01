@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class Button_1 : MonoBehaviour
 
     public bool isOn = false;
 
+
     void Start()
     {
         gameObject.GetComponent<SpriteRenderer>().sprite = switchOff.GetComponent<SpriteRenderer>().sprite;
@@ -21,12 +23,21 @@ public class Button_1 : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Alpha1) && isOn == false)
 
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
             isOn = true;
+            StartCoroutine(("SetMyBoolToFalse"));
+        }
 
+
+        if (Input.GetKeyDown(KeyCode.Alpha1) && isOn == true)
+
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
+            isOn = true;
+            StartCoroutine(("SetMyBoolToFalse"));
         }
 
 
@@ -39,14 +50,29 @@ public class Button_1 : MonoBehaviour
             {
                 gameObject.GetComponent<SpriteRenderer>().sprite = switchOff.GetComponent<SpriteRenderer>().sprite;
                 isOn = false;
+              
             }
 
 
 
 
         }
+        
 
+        
 
     }
+    private IEnumerator SetMyBoolToFalse()
+    {
+
+        yield return new WaitForSeconds(1f);
+        if (isOn == true)
+        {
+            isOn = false;
+            gameObject.GetComponent<SpriteRenderer>().sprite = switchOff.GetComponent<SpriteRenderer>().sprite;
+        }
+        yield return null;
+    }
+
 
 }

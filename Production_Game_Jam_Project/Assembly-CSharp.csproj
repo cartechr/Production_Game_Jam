@@ -63,6 +63,10 @@
     <Compile Include="Assets\Scripts\Buttons\Button_2.cs" />
     <Compile Include="Assets\Scripts\Buttons\Button_3.cs" />
     <Compile Include="Assets\Scripts\Buttons\Button_4.cs" />
+    <Compile Include="Assets\Scripts\Doors\R_door.cs" />
+    <Compile Include="Assets\Scripts\Doors\B_door.cs" />
+    <Compile Include="Assets\Scripts\Doors\G_door.cs" />
+    <Compile Include="Assets\Scripts\Doors\Y_door.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
