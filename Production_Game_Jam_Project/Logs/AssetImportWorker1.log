@@ -312,3 +312,163 @@ Received Import Request.
 Start importing Assets/Art/Objects/buttons_numbers.png using Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6de6730e4b24bbc23017289c86e195f') in 0.028517 seconds 
   Import took 0.031363 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 80.124525 seconds.
+  path: Assets/Art/Objects/buttons_numbers.png
+  artifactKey: Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Objects/buttons_numbers.png using Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a4d596c75452eefedea049059141f2') in 0.027592 seconds 
+  Import took 0.030486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.017580 seconds.
+  path: Assets/Art/Objects/buttons_numbers.png
+  artifactKey: Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Objects/buttons_numbers.png using Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5008e76116e22421630202741160fa41') in 0.028238 seconds 
+  Import took 0.031360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.164463 seconds.
+  path: Assets/Art/Objects/buttons_numbers.png
+  artifactKey: Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Objects/buttons_numbers.png using Guid(82f0a7f6313be7346b39f441ad981bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dcadf516d0d6b371a39adebb59e05e') in 0.027239 seconds 
+  Import took 0.030093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.973567 seconds.
+  path: Assets/Art/Player/Rat_run.png
+  artifactKey: Guid(6a9f54ec6e74acd42b19291e1007174f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/Rat_run.png using Guid(6a9f54ec6e74acd42b19291e1007174f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d5e509ddcb15c9913268c5b76f7a6b') in 0.019464 seconds 
+  Import took 0.022251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.990196 seconds.
+  path: Assets/Art/Player/Rat_run.png
+  artifactKey: Guid(6a9f54ec6e74acd42b19291e1007174f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/Rat_run.png using Guid(6a9f54ec6e74acd42b19291e1007174f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837a86afb6f95c3314d0ab46bdae7e29') in 0.041393 seconds 
+  Import took 0.044371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.212863 seconds.
+  path: Assets/Art/Player/Rat_run.png
+  artifactKey: Guid(6a9f54ec6e74acd42b19291e1007174f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/Rat_run.png using Guid(6a9f54ec6e74acd42b19291e1007174f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8eef16f0678203392e511100a27134') in 0.047320 seconds 
+  Import took 0.050433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.529040 seconds.
+  path: Assets/Art/Player/rat_jump.png
+  artifactKey: Guid(2688e2a66b7ad554ea08449218c27320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/rat_jump.png using Guid(2688e2a66b7ad554ea08449218c27320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71090a552dddeb625533385d1b2262a3') in 0.011128 seconds 
+  Import took 0.014038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001203 seconds.
+  path: Assets/Art/Player/rat_jump.png
+  artifactKey: Guid(2688e2a66b7ad554ea08449218c27320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/rat_jump.png using Guid(2688e2a66b7ad554ea08449218c27320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71090a552dddeb625533385d1b2262a3') in 0.008510 seconds 
+  Import took 0.011899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.044909 seconds.
+  path: Assets/Art/Player/rat_jump.png
+  artifactKey: Guid(2688e2a66b7ad554ea08449218c27320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/rat_jump.png using Guid(2688e2a66b7ad554ea08449218c27320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60940bef7ae2baa4e5195ac6b3389e1') in 0.017823 seconds 
+  Import took 0.020633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.229655 seconds.
+  path: Assets/Art/Player/Rat_idle.png
+  artifactKey: Guid(c6322f2f3efc47d47a927bd4050461f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/Rat_idle.png using Guid(c6322f2f3efc47d47a927bd4050461f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2708fd8227b1c2abb372dca6cb4cb3b5') in 0.010028 seconds 
+  Import took 0.013223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003211 seconds.
+  path: Assets/Art/Player/Rat_idle.png
+  artifactKey: Guid(c6322f2f3efc47d47a927bd4050461f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/Rat_idle.png using Guid(c6322f2f3efc47d47a927bd4050461f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2708fd8227b1c2abb372dca6cb4cb3b5') in 0.006652 seconds 
+  Import took 0.009383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.142480 seconds.
+  path: Assets/Art/Player/Rat_idle.png
+  artifactKey: Guid(c6322f2f3efc47d47a927bd4050461f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/Rat_idle.png using Guid(c6322f2f3efc47d47a927bd4050461f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad4cdb1a935f009720270c2eff48de2') in 0.020662 seconds 
+  Import took 0.023645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.092762 seconds.
+  path: Assets/Art/Player/Rat_idle.png
+  artifactKey: Guid(c6322f2f3efc47d47a927bd4050461f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/Rat_idle.png using Guid(c6322f2f3efc47d47a927bd4050461f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be40508457d41701bb509013fc188bda') in 0.019816 seconds 
+  Import took 0.022689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.910684 seconds.
+  path: Assets/Art/Player/rat_jump.png
+  artifactKey: Guid(2688e2a66b7ad554ea08449218c27320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/rat_jump.png using Guid(2688e2a66b7ad554ea08449218c27320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06156fcafb73e44e3715d81c0f37a906') in 0.018125 seconds 
+  Import took 0.021045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.882534 seconds.
+  path: Assets/Art/Player/Rat_attack.png
+  artifactKey: Guid(6f28ed07c5b9e1a4e8bd384278020df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/Rat_attack.png using Guid(6f28ed07c5b9e1a4e8bd384278020df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f439d18796d273b530bd159811c1fc') in 0.010568 seconds 
+  Import took 0.013886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002403 seconds.
+  path: Assets/Art/Player/Rat_attack.png
+  artifactKey: Guid(6f28ed07c5b9e1a4e8bd384278020df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/Rat_attack.png using Guid(6f28ed07c5b9e1a4e8bd384278020df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f439d18796d273b530bd159811c1fc') in 0.006518 seconds 
+  Import took 0.009247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.280144 seconds.
+  path: Assets/Art/Player/Rat_attack.png
+  artifactKey: Guid(6f28ed07c5b9e1a4e8bd384278020df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/Rat_attack.png using Guid(6f28ed07c5b9e1a4e8bd384278020df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5eafe6518495c91d1924c77054191e7') in 0.013926 seconds 
+  Import took 0.016850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.132726 seconds.
+  path: Assets/Art/Player/Rat_attack.png
+  artifactKey: Guid(6f28ed07c5b9e1a4e8bd384278020df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/Rat_attack.png using Guid(6f28ed07c5b9e1a4e8bd384278020df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2707c9adf8ab1507ad905098ddadeb5c') in 0.016397 seconds 
+  Import took 0.019582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003509 seconds.
+  path: Assets/Art/Player/Rat_attack.png
+  artifactKey: Guid(6f28ed07c5b9e1a4e8bd384278020df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Player/Rat_attack.png using Guid(6f28ed07c5b9e1a4e8bd384278020df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2707c9adf8ab1507ad905098ddadeb5c') in 0.012544 seconds 
+  Import took 0.015547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.850182 seconds.
+  path: Assets/Prefabs/Objects/Testing
+  artifactKey: Guid(9fddcbfb63b1b6449b4287de368462d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Objects/Testing using Guid(9fddcbfb63b1b6449b4287de368462d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02011f9e13d214919600a5fe4edb9bd6') in 0.005685 seconds 
+  Import took 0.008436 seconds .
+
