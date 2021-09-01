@@ -27,6 +27,13 @@ public class Test_Door : MonoBehaviour
 
             isOpen = true;
         }
-        
+
+        if (GameObject.Find("Button_test").GetComponent<Button>().isOn == false)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = doorClosed.GetComponent<SpriteRenderer>().sprite;
+
+            isOpen = false;
+        }
+
     }
 }

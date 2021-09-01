@@ -15,7 +15,7 @@ public class Button : MonoBehaviour
     void Start()
     {
         gameObject.GetComponent<SpriteRenderer>().sprite = switchOff.GetComponent<SpriteRenderer>().sprite;
-        print(isOn);
+       
 
     }
 
@@ -26,11 +26,11 @@ public class Button : MonoBehaviour
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
             isOn = true;
-             print(isOn);
+       
         }
 
-         
-        
+
+
 
         if (isOn)
         {
@@ -41,9 +41,9 @@ public class Button : MonoBehaviour
                 isOn = false;
             }
 
-            
 
-           
+
+
         }
 
 
