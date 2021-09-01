@@ -53,11 +53,12 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Button.cs" />
-    <Compile Include="Assets\Scripts\Test_Door.cs" />
-    <Compile Include="Assets\Scripts\Test_RDoor.cs" />
     <Compile Include="Assets\Scripts\Test_BDoor.cs" />
     <Compile Include="Assets\Scripts\Button_green.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Test_RDoor.cs" />
+    <Compile Include="Assets\Scripts\Test_Door.cs" />
+    <Compile Include="Assets\Scripts\Button.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
