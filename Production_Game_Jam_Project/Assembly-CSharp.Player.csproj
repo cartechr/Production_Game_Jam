@@ -53,20 +53,21 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Buttons\Button_3.cs" />
     <Compile Include="Assets\Scripts\Doors\Test_BDoor.cs" />
     <Compile Include="Assets\Scripts\Buttons\Button_green.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\Doors\Test_RDoor.cs" />
-    <Compile Include="Assets\Scripts\Doors\Test_Door.cs" />
-    <Compile Include="Assets\Scripts\Buttons\Button.cs" />
-    <Compile Include="Assets\Scripts\Buttons\Button_1.cs" />
-    <Compile Include="Assets\Scripts\Buttons\Button_2.cs" />
-    <Compile Include="Assets\Scripts\Buttons\Button_3.cs" />
     <Compile Include="Assets\Scripts\Buttons\Button_4.cs" />
-    <Compile Include="Assets\Scripts\Doors\R_door.cs" />
     <Compile Include="Assets\Scripts\Doors\B_door.cs" />
+    <Compile Include="Assets\Scripts\Buttons\Button_1.cs" />
+    <Compile Include="Assets\Scripts\Doors\Test_RDoor.cs" />
     <Compile Include="Assets\Scripts\Doors\G_door.cs" />
+    <Compile Include="Assets\Scripts\Doors\Test_Door.cs" />
     <Compile Include="Assets\Scripts\Doors\Y_door.cs" />
+    <Compile Include="Assets\Scripts\Doors\R_door.cs" />
+    <Compile Include="Assets\Scripts\Buttons\Button.cs" />
+    <Compile Include="Assets\Scripts\Buttons\Button_2.cs" />
+    <Compile Include="Assets\Scripts\UI\UI_red.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
