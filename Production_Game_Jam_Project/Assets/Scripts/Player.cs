@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     public bool turn = false;
 
     public SpriteRenderer spriteRenderer;
+    public Animator animator;
 
     private void Start()
     {
@@ -22,7 +23,11 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        
+        if(Input.GetButtonDown("Jump"))
+        {
+            Jump();
+            Debug.Log("Jump Test");
+        }
     }
 
     void FixedUpdate()
@@ -31,8 +36,7 @@ public class Player : MonoBehaviour
 
         rB2D.velocity = new Vector2(horizontalInput * Time.deltaTime, rB2D.velocity.y);
 
-        //animator.SetFloat("(speed)", Mathf.Abs(horizontalInput));
-        //no animation yet
+        animator.SetFloat("Running", Mathf.Abs(horizontalInput));
 
         if (rB2D.velocity.x > 0)
         {
@@ -45,11 +49,10 @@ public class Player : MonoBehaviour
             spriteRenderer.flipX = true;
             turn = true;
         }
-
-        void Jump()
-        {
-            rB2D.velocity = new Vector2(rB2D.velocity.x, jumpSpeed);
         }
-
+    void Jump()
+    {
+        rB2D.velocity = new Vector2(rB2D.velocity.x, jumpSpeed);
     }
+
 }
