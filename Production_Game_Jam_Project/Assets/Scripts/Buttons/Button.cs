@@ -11,30 +11,35 @@ public class Button : MonoBehaviour
     GameObject switchOff;
 
     public bool isOn = false;
+    public bool isInRange;
 
     void Start()
     {
         gameObject.GetComponent<SpriteRenderer>().sprite = switchOff.GetComponent<SpriteRenderer>().sprite;
-       
+
 
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
 
+        if (isInRange)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
-            isOn = true;
-       
+            if (Input.GetKeyDown(KeyCode.E))
+
+            {
+                gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
+                isOn = true;
+                StartCoroutine(("SetMyBoolToFalse"));
+
+            }
+
         }
-
-
 
 
         if (isOn)
         {
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Input.GetKeyDown(KeyCode.Alpha9))
 
             {
                 gameObject.GetComponent<SpriteRenderer>().sprite = switchOff.GetComponent<SpriteRenderer>().sprite;
@@ -48,5 +53,32 @@ public class Button : MonoBehaviour
 
 
     }
+    private IEnumerator SetMyBoolToFalse()
+    {
 
+        yield return new WaitForSeconds(1f);
+        if (isOn == true)
+        {
+            isOn = false;
+            gameObject.GetComponent<SpriteRenderer>().sprite = switchOff.GetComponent<SpriteRenderer>().sprite;
+        }
+        yield return null;
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isInRange = true;
+            Debug.Log("Player in test");
+        }
+    }
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isInRange = false;
+            Debug.Log("Player out test");
+        }
+    }
 }

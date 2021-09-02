@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7503215301780749343}
   - component: {fileID: 7503215301780749342}
   - component: {fileID: 2857437797662194395}
+  - component: {fileID: 7385745830039856504}
   m_Layer: 0
   m_Name: Red_door
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 7503215301780749337}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.92, y: 10.55, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.28, y: 0.28, z: 0.28}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -97,4 +98,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorOpen: {fileID: 3983497170018578252, guid: ecb1cf1998f6c3347896b1f7d363bb98, type: 3}
   doorClosed: {fileID: 7498734269967212506, guid: ecb4a52693cbc0d4bad3b75beab3e097, type: 3}
+  collider2D: {fileID: 7385745830039856504}
   isOpen: 0
+--- !u!61 &7385745830039856504
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7503215301780749337}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.875, y: 15}
+    newSize: {x: 1.875, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.875, y: 15}
+  m_EdgeRadius: 0

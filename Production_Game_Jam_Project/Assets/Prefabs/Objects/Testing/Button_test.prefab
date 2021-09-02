@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8177047603195526083}
   - component: {fileID: 8052794570849994369}
   - component: {fileID: 54296196184630882}
+  - component: {fileID: 7129589643832823776}
   m_Layer: 0
   m_Name: Button_test
   m_TagString: Untagged
@@ -98,3 +99,30 @@ MonoBehaviour:
   switchOn: {fileID: 4988038241160288652, guid: ec6cfb01497435048904f0c9f5012420, type: 3}
   switchOff: {fileID: 6266157834316775960, guid: 51e81c1cf9419fa40987a6bdd762e4a1, type: 3}
   isOn: 0
+  isInRange: 0
+--- !u!61 &7129589643832823776
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8860501088356702503}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5, y: 5}
+    newSize: {x: 5, y: 5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5, y: 5}
+  m_EdgeRadius: 0

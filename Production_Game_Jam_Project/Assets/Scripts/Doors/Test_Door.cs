@@ -10,7 +10,7 @@ public class Test_Door : MonoBehaviour
 
     [SerializeField]
     GameObject doorClosed;
-
+    public BoxCollider2D collider2D;
     public bool isOpen = false;
 
     void Start()
@@ -26,14 +26,21 @@ public class Test_Door : MonoBehaviour
             gameObject.GetComponent<SpriteRenderer>().sprite = doorOpen.GetComponent<SpriteRenderer>().sprite;
 
             isOpen = true;
+            SetInActive();
         }
 
-        if (GameObject.Find("Button_test").GetComponent<Button>().isOn == false)
-        {
-            gameObject.GetComponent<SpriteRenderer>().sprite = doorClosed.GetComponent<SpriteRenderer>().sprite;
+        
 
-            isOpen = false;
-        }
+    }
+    void SetInActive()
+    {
+        collider2D.enabled = false;
+
+
+    }
+    void SetActive()
+    {
+        collider2D.enabled = true;
 
     }
 }

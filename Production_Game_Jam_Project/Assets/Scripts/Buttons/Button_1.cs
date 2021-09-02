@@ -12,6 +12,7 @@ public class Button_1 : MonoBehaviour
     GameObject switchOff;
 
     public bool isOn = false;
+    public bool isInRange; 
 
 
     void Start()
@@ -23,25 +24,30 @@ public class Button_1 : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1) && isOn == false)
 
+        if (isInRange)
         {
-            gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
-            isOn = true;
-            StartCoroutine(("SetMyBoolToFalse"));
+            if (Input.GetKeyDown(KeyCode.E) && isOn == false)
+            {
+
+
+                {
+                    gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
+                    isOn = true;
+                    StartCoroutine(("SetMyBoolToFalse"));
+                }
+
+
+                if (Input.GetKeyDown(KeyCode.E) && isOn == true)
+
+                {
+                    gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
+                    isOn = true;
+                    StartCoroutine(("SetMyBoolToFalse"));
+                }
+            }
+
         }
-
-
-        if (Input.GetKeyDown(KeyCode.Alpha1) && isOn == true)
-
-        {
-            gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
-            isOn = true;
-            StartCoroutine(("SetMyBoolToFalse"));
-        }
-
-
-
 
         if (isOn)
         {
@@ -73,6 +79,21 @@ public class Button_1 : MonoBehaviour
         }
         yield return null;
     }
-
+     void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            isInRange = true;
+            Debug.Log("Player in 1");
+        }
+    }
+     void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isInRange = false;
+            Debug.Log("Player out 1 ");
+        }
+    }
 
 }

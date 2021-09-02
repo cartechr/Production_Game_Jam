@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8151675509656004368}
   - component: {fileID: 2390577994748329604}
   - component: {fileID: 5588612924791748574}
+  - component: {fileID: 1096375181227531060}
   m_Layer: 0
   m_Name: B1
   m_TagString: Untagged
@@ -98,3 +99,29 @@ MonoBehaviour:
   switchOn: {fileID: 3919180349891269124, guid: 1bd1265eeb4f56445896e2e4c11ed914, type: 3}
   switchOff: {fileID: 9082551188836261053, guid: 453679d3c89ac7c4e92c5ace46711e21, type: 3}
   isOn: 0
+--- !u!61 &1096375181227531060
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5333898086416097974}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
