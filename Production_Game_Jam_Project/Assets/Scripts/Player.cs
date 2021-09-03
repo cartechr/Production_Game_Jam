@@ -13,6 +13,9 @@ public class Player : MonoBehaviour
     public bool jump = true;
     public bool turn = false;
 
+    public GameObject shooter;
+
+
     public SpriteRenderer spriteRenderer;
     public Animator animator;
 
@@ -48,12 +51,14 @@ public class Player : MonoBehaviour
         if (rB2D.velocity.x > 0)
         {
             spriteRenderer.flipX = false;
+            shooter.transform.Rotate(0f, 180f, 0f);
             turn = false;
         }
         else
         if (rB2D.velocity.x < 0)
         {
             spriteRenderer.flipX = true;
+            shooter.transform.Rotate(0f, 180f, 0f);
             turn = true;
         }
         }

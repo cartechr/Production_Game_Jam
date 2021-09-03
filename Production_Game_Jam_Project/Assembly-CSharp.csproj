@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\UI\UI_Yellow.cs" />
     <Compile Include="Assets\Scripts\Doors\B_door.cs" />
     <Compile Include="Assets\Scripts\Buttons\Button_1.cs" />
+    <Compile Include="Assets\Scripts\Laser\Laser.cs" />
     <Compile Include="Assets\Scripts\Doors\Test_RDoor.cs" />
     <Compile Include="Assets\Scripts\Doors\G_door.cs" />
     <Compile Include="Assets\Scripts\Doors\Test_Door.cs" />
@@ -69,8 +70,10 @@
     <Compile Include="Assets\Scripts\Doors\R_door.cs" />
     <Compile Include="Assets\Scripts\UI\UI_red.cs" />
     <Compile Include="Assets\Scripts\Buttons\Button.cs" />
+    <Compile Include="Assets\Scripts\Laser\laser_script.cs" />
     <Compile Include="Assets\Scripts\Buttons\Button_2.cs" />
     <Compile Include="Assets\Scripts\UI\UI_Green.cs" />
+    <Compile Include="Assets\Scripts\Laser\Box.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sounds\SoundCredits.txt" />
