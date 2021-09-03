@@ -6,16 +6,16 @@ using UnityEngine.UI;
 public class UI_red : MonoBehaviour
 {
     [SerializeField]
-    GameObject switchOn;
+    Sprite switchOn;
 
     [SerializeField]
-    GameObject switchOff;
-
+    Sprite switchOff;
+    public Image red_UI;
     public bool isOn = false;
 
     void Start()
     {
-        gameObject.GetComponent<Image>().sprite = switchOff.GetComponent<Image>().sprite;
+        red_UI.sprite = switchOff;
         
 
 
@@ -25,14 +25,14 @@ public class UI_red : MonoBehaviour
     {
         if (GameObject.Find("Red_door").GetComponent<R_door>().isOpen == true)
         {
-            gameObject.GetComponent<Image>().sprite = switchOn.GetComponent<Image>().sprite;
+            red_UI.sprite = switchOn;
 
             isOn = true;
            
         }
         if (GameObject.Find("Red_door").GetComponent<R_door>().isOpen == false)
         {
-            gameObject.GetComponent<Image>().sprite = switchOn.GetComponent<Image>().sprite;
+            red_UI.sprite = switchOff;
 
             isOn = false;
 

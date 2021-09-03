@@ -65,9 +65,15 @@
     <Compile Include="Assets\Scripts\Doors\Test_Door.cs" />
     <Compile Include="Assets\Scripts\Doors\Y_door.cs" />
     <Compile Include="Assets\Scripts\Doors\R_door.cs" />
+    <Compile Include="Assets\Scripts\UI\UI_red.cs" />
     <Compile Include="Assets\Scripts\Buttons\Button.cs" />
     <Compile Include="Assets\Scripts\Buttons\Button_2.cs" />
-    <Compile Include="Assets\Scripts\UI\UI_red.cs" />
+    <Compile Include="Assets\Scripts\UI\UI_Blue.cs" />
+    <Compile Include="Assets\Scripts\UI\UI_Yellow.cs" />
+    <Compile Include="Assets\Scripts\UI\UI_Green.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Sounds\SoundCredits.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
