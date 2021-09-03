@@ -12,7 +12,9 @@ public class Button_1 : MonoBehaviour
     GameObject switchOff;
 
     public bool isOn = false;
-    public bool isInRange; 
+    public bool isInRange;
+    public AudioSource audiosource;
+    public AudioClip sound;
 
 
     void Start()
@@ -35,6 +37,7 @@ public class Button_1 : MonoBehaviour
                     gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
                     isOn = true;
                     StartCoroutine(("SetMyBoolToFalse"));
+                    audiosource.PlayOneShot(sound);
                 }
 
 
