@@ -21,20 +21,27 @@ public class Player : MonoBehaviour
         rB2D = GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
+     void Update()
     {
         if(Input.GetButtonDown("Jump"))
         {
-            Jump();
-            Debug.Log("Jump Test");
+            
+            int levelMask = LayerMask.GetMask("Level");
+
+            if (Physics2D.BoxCast(transform.position, new Vector2(1f, .1f), 0f, Vector2.down, .01f, levelMask))
+            {
+                Jump();
+                Debug.Log("Jump Test");
+            }
+            
         }
     }
 
     void FixedUpdate()
     {
-        float horizontalInput = Input.GetAxis("Horizontal") * runSpeed;
+        float horizontalInput = Input.GetAxis("Horizontal") ;
 
-        rB2D.velocity = new Vector2(horizontalInput * Time.deltaTime, rB2D.velocity.y);
+        rB2D.velocity = new Vector2(horizontalInput * runSpeed * Time.deltaTime, rB2D.velocity.y);
 
         animator.SetFloat("Running", Mathf.Abs(horizontalInput));
 
